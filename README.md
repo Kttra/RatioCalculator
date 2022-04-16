@@ -1,4 +1,4 @@
-# RatioCalculator
+# Ratio Calculator
 A simple ratio calculator/scaler made in C# using .net 5.
 
 The purpose of this program is to simulate a ratio calculator. A ratio calculator takes two ratios and scales both sides so that their ratios are equal. Values will be rounded for better viewing. This program was primarily made for scaling pictures.
