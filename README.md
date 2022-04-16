@@ -18,5 +18,8 @@ For easier usage, pressing enter in any textbox will toggle realtime off and on.
 -------------------------------------
 The textboxes are setup so that only digits can be typed in. This is achieved through keypress event handlers. However, this does not prevent random characters from being copied and pasted in. We do have a safety measure in place though with tryparse. The calculated textbox will end up being set to 0 if a non-number character is pasted in a textbox.
 
+Normal types of ratios are generally smaller like the image below. When working with pictures and videos of different sizes, the scaling starts to become much larger making it tedious to calculate without a program or calculator at hand. This is the reason why this program was made.
 
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100814612/163684610-1167edfe-125f-40f5-8839-48bc09d9a147.png"><img>
+</p>
