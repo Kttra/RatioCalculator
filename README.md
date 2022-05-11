@@ -29,6 +29,8 @@ A new exciting feature added to the program. This newly added feature will take 
 
 To use the new feature, press on the "Get Ratio" button. The main form will be hidden and you can start to draw your rectangle. If you want to cancel, press esc. The main form will reappear like normal. However, if you are satisfied with your selection, press any key on your keyboard. This will tell the program to update the first ratio to match the rectangle you drew.
 
+https://user-images.githubusercontent.com/100814612/167955892-3b382738-52f7-4e30-a9a5-ee16ae54bf00.mp4
+
 **Other Projects**
 -------------------
 Below are other similar projects related to this application that have helped me come up with the get ratio feature.
