@@ -1,11 +1,10 @@
 # Ratio Calculator
-A simple ratio calculator/scaler made in C# using .NET.
+A ratio calculator/scaler made in C# using .NET.
 
 The purpose of this program is to simulate a ratio calculator. A ratio calculator takes two ratios and scales both sides so that their ratios are equal. Values will be rounded for better viewing. This program was primarily made for scaling pictures.
 
-
 <p align="center">
-<img src="https://user-images.githubusercontent.com/100814612/163684311-a792f4db-77cd-4366-bf72-1523b795290e.png"><img>
+<img src="https://user-images.githubusercontent.com/100814612/167768320-b06cd149-2462-45af-9203-c34ea3c9f24a.png"><img>
 </p>
 
 **Realtime Calculations**
@@ -23,3 +22,17 @@ Normal types of ratios are generally smaller like the image below. When working 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100814612/163684610-1167edfe-125f-40f5-8839-48bc09d9a147.png"><img>
 </p>
+
+**Get Ratio Button**
+-------------------------------------
+A new exciting feature added to the program. This newly added feature will take a screenshot of your computer screen after hiding the main form. The new form that pops up will take up the entire screen while taking in the image of the taken screenshot. You can think of it almost like it's transparent, but there's an added bonus. We can draw on the screen. This means we can form a rectangle around an existing image on the screen and get its ratio without needing to go through the hassle of downloading an image and looking at its properties.
+
+To use the new feature, press on the "Get Ratio" button. The main form will be hidden and you can start to draw your rectangle. If you want to cancel, press esc. The main form will reappear like normal. However, if you are satisfied with your selection, press any key on your keyboard. This will tell the program to update the first ratio to match the rectangle you drew.
+
+**Other Projects**
+-------------------
+Below are other similar projects related to this application that have helped me come up with the get ratio feature.
+
+[Screenshot Form](https://github.com/Kttra/ScreenshotForm) - A screenshot program that showcases how to screenshot your pc screen, screenshot the form itself, screenshot the controls contained in a panel, and display an image on a picture box.
+
+[Screenshot Webpage](https://github.com/Kttra/ScreenshotWebpage) - A screen capture application. This one is different in the sense that it screenshots an entire webpage.
