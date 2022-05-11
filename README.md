@@ -1,5 +1,5 @@
 # Ratio Calculator
-A ratio calculator/scaler made in C# using .NET.
+A ratio calculator/scaler made in C# using .NET 6. Additionally, this program can get the ratio of an image by drawing a rectangle over it.
 
 The purpose of this program is to simulate a ratio calculator. A ratio calculator takes two ratios and scales both sides so that their ratios are equal. Values will be rounded for better viewing. This program was primarily made for scaling pictures.
 
