@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Drawing;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -97,14 +97,14 @@ namespace ratioScaler
         //Key presses
         private void Form_TransparentBack_KeyDown(object sender, KeyEventArgs e)
         {
-            //If esc is pressed then close
-            if (e.KeyCode == Keys.Escape)
+            //Successfully close if any other key other than escape is pressed
+            if (e.KeyCode != Keys.Escape)
             {
+                returnRect = rect;
+                this.DialogResult = DialogResult.OK;
                 this.Close();
             }
-            //Close if any other key is pressed and set the returnRect
-            returnRect = rect;
-            this.DialogResult = DialogResult.OK;
+            //Just close if esc is pressed
             this.Close();
         }
     }
