@@ -1,5 +1,5 @@
 # Ratio Calculator
-A ratio calculator/scaler made in C# using .NET 6. Additionally, this program can get the ratio of an image by drawing a rectangle over it. A ratio calculator takes two ratios and scales both sides so that their ratios are equal. Values will be rounded for better viewing. This program was primarily made to get lower ratios of pictures.
+A ratio calculator/scaler made in C# using .NET. Additionally, this program can get the ratio of an image by drawing a rectangle over it. A ratio calculator takes two ratios and scales both sides so that their ratios are equal. Values will be rounded for better viewing. This program was primarily made to get lower ratios of pictures.
 
 I found myself constantly looking at the width and height of pictures and then lowering their values to get a smaller ratio (for better viewing sizes in readme files), so I decided to make the process easier by creating this application that both calculates different ratios and gets the ratio without needing to download the image.
 
@@ -9,7 +9,7 @@ I found myself constantly looking at the width and height of pictures and then l
 
 **Realtime Calculations**
 -------------------------------------
-When the realtime checkbox is checked (is checked by default), the program will update the ratios while getting input. This can be disabled by manually unchecking the checkbox or pressing enter in one of the textboxes. Realtime update will priortize based on the ratios updated. If the a and b fields are filled and c updated, d will be calculated. If a, b, and d are filled, c will be calculated. If b, c, and d are filled, a will be updated and so on.
+When the realtime checkbox is checked (it is checked by default), the program will update the ratios when input is given. This can be disabled by manually unchecking the checkbox or pressing enter in one of the textboxes. Realtime update will priortize based on the ratios updated. If the a and b fields are filled and c updated, d will be calculated. If a, b, and d are filled, c will be calculated. If b, c, and d are filled, a will be updated and so on.
 
 For easier usage, pressing enter in any textbox will toggle realtime off and on. Like other programs, pressing tab will cycle through the boxes and buttons.
 
@@ -39,4 +39,4 @@ Below are other similar projects related to this application that have helped me
 
 [Screenshot Webpage](https://github.com/Kttra/ScreenshotWebpage) - A screen capture application. This one is different in the sense that it screenshots an entire webpage.
 
-[Mouse Position](https://github.com/Kttra/MousePosition) - A program that shows the coordinates of the mouse. This is a simple program, but can lead to powerful projects. In the ratio calculator program itself, I utilize the mouse position to draw the rectangle and calculate both the width and height of it.
+[Mouse Position](https://github.com/Kttra/MousePosition) - A program that shows the coordinates of the mouse. This is a simple program, but it can lead to powerful projects. In the ratio calculator program itself, I utilize the mouse position to draw the rectangle and calculate both the width and height of it.
