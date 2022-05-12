@@ -38,3 +38,5 @@ Below are other similar projects related to this application that have helped me
 [Screenshot Form](https://github.com/Kttra/ScreenshotForm) - A screenshot program that showcases how to screenshot your pc screen, screenshot the form itself, screenshot the controls contained in a panel, and display an image on a picture box.
 
 [Screenshot Webpage](https://github.com/Kttra/ScreenshotWebpage) - A screen capture application. This one is different in the sense that it screenshots an entire webpage.
+
+[Mouse Position](https://github.com/Kttra/MousePosition) - A program that shows the coordinates of the mouse. This is a simple program, but can lead to powerful projects. In the ratio calculator program itself, I utilize the mouse position to draw the rectangle and calculate both the width and height of it.
